@@ -1,2 +1,2 @@
-# k9dogrescueinc
-Database project for an existing website (not a fork!)
+# safepetsinc
+Database project for NFP Organisations
