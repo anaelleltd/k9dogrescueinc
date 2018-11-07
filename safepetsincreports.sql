@@ -1,14 +1,5 @@
 /*The reporting queries */
 
-/*Select all Jokes that have been written in the current month and display the details of their authors.*/
-SELECT AUTHORID, JOKETEXT
-FROM JOKE
-WHERE JOKEDATE BETWEEN '2018-09-11' AND '2018-10-11'
-UNION
-SELECT AUTHORID, NAME
-FROM AUTHOR
-ORDER BY AUTHORID 
-
 /*1.Select all duties that have been set in the current month and display the details of their 
 assigned staff and volunteer*/
 SELECT DUTIES.DATE_SET, DUTIES.DUTY_TASK, DUTIES.DOG_NAME, STAFF.STAFF_ID, STAFF.FIRSTNAME, STAFF.LASTNAME, 
