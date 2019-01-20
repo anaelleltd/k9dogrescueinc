@@ -1,0 +1,4 @@
+host: localhost
+database name: anaellel_safepetsinc
+user name: anaellel_k9
+password: staffadmin18
