@@ -1,0 +1,5 @@
+---
+Name: Safe Pets inc
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app
