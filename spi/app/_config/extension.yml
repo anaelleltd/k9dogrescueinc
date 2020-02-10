@@ -1,0 +1,6 @@
+---
+Name: Favicons
+---
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - FaviconsExt

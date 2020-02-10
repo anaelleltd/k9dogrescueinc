@@ -1,0 +1,15 @@
+---
+Name: anaelleltd
+---
+SilverStripe\View\SSViewer:
+  themes:
+    - anaelleltd
+    - '$default'
+SilverStripe\i18n\i18n:
+  default_locale: 'en_US'
+---
+Only:
+  environment: 'dev'
+---
+SilverStripe\View\SSViewer:
+  source_file_comments: true'
