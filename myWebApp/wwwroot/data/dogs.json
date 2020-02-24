@@ -1,0 +1,75 @@
+[
+  {
+    "Id": "1",
+    "Name": "Chevvy",
+    "photo": "https://anaelleltd.company/images/1chevvy.jpg",
+    "DOB": "2017-10-08",
+    "Sex": "F",
+    "Breed": "Rottweiler",
+    "Size": "M",
+    "Checks": "Y",
+    "Adoption": "Y",
+    "Description": null,
+    "Kennel": "1",
+    "Votes": [
+      2,
+      4
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Butch",
+    "photo": "https://anaelleltd.company/images/2butch.jpg",
+    "DOB": "2017-05-15",
+    "Sex": "M",
+    "Breed": "Husky x Mastiff",
+    "Size": "L",
+    "Checks": "Y",
+    "Adoption": "Y",
+    "Description": null,
+    "Kennel": "2",
+    "Votes": null
+  },
+  {
+    "Id": "3",
+    "Name": "Durah",
+    "photo": "https://anaelleltd.company/images/3durah.jpg",
+    "DOB": "2012-04-01",
+    "Sex": "F",
+    "Breed": "Mastiff x",
+    "Size": "M",
+    "Checks": "Y",
+    "Adoption": "Y",
+    "Description": null,
+    "Kennel": "3",
+    "Votes": null
+  },
+  {
+    "Id": "4",
+    "Name": "Yogi",
+    "photo": "https://anaelleltd.company/images/4yogi.jpg",
+    "DOB": "2017-02-24",
+    "Sex": "M",
+    "Breed": "Mastiff",
+    "Size": "L",
+    "Checks": "Y",
+    "Adoption": "Y",
+    "Description": null,
+    "Kennel": "4",
+    "Votes": null
+  },
+  {
+    "Id": "5",
+    "Name": "Marnie",
+    "photo": "https://anaelleltd.company/images/5marnie.jpg",
+    "DOB": "2017-01-01",
+    "Sex": "F",
+    "Breed": "Staffy",
+    "Size": "M",
+    "Checks": "Y",
+    "Adoption": "Y",
+    "Description": null,
+    "Kennel": "5",
+    "Votes": null
+  }
+]

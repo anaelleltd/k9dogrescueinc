@@ -1,0 +1,503 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"Start"
+			],
+			[
+				"C",
+				"City"
+			],
+			[
+				"Date",
+				"DateTime"
+			],
+			[
+				"Dat",
+				"DateTime"
+			],
+			[
+				"Dog",
+				"DogService"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"Com",
+				"Completion_status"
+			],
+			[
+				"col",
+				"col-sm-12"
+			],
+			[
+				"sh",
+				"show-for-medium"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"fot",
+				"font-style\tproperty"
+			],
+			[
+				"te",
+				"text-center"
+			],
+			[
+				"all",
+				"align-self\tproperty"
+			],
+			[
+				"Tag",
+				"Tags"
+			],
+			[
+				"b",
+				"bootstrap"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"alig",
+				"align-self\tproperty"
+			],
+			[
+				"duti",
+				"duty_id"
+			],
+			[
+				"dog",
+				"dog_name"
+			],
+			[
+				"date_d",
+				"date_date_set"
+			],
+			[
+				"da",
+				"date_due"
+			],
+			[
+				"dat",
+				"date_due"
+			],
+			[
+				"duty",
+				"duty_id"
+			],
+			[
+				"date",
+				"date_set"
+			],
+			[
+				"VO",
+				"VOLUNTEER_ID"
+			],
+			[
+				"chec",
+				"checked"
+			],
+			[
+				"border-pa",
+				"border-spacing\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"ca",
+				"caption\tTag"
+			],
+			[
+				"al",
+				"text-align\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"font-",
+				"font-variant\tproperty"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"backgoun",
+				"background-color\tproperty"
+			],
+			[
+				"a",
+				"auto"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/myWebApp"
+	],
+	"file_history":
+	[
+		"/C/laragon/www/wp_child/wp-config.php",
+		"/C/laragon/www/anaellel_safepetsinc/includes/db.inc.php",
+		"/C/laragon/www/anaellel_safepetsinc2/includes/db.inc.php",
+		"/C/laragon/www/jokes_php/includes/db.inc.php",
+		"/C/laragon/www/wordpress/wp-config-sample.php",
+		"/C/laragon/www/simpleblog/includes/config.php",
+		"/C/laragon/www/simpleblog/db.sql",
+		"/C/laragon/www/simpleblog/admin/login.php",
+		"/C/laragon/www/spi/documentation/anaellel_safepetsinc2.sql",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/index.html",
+		"/C/ANAELLE/ALTD/anaellel_safepetsinc.sql",
+		"/C/laragon/www/spi/mysql/anaellel_safepetsinc2_spi.sql",
+		"/C/ANAELLE/ALTD/github_repositories/myWebApp/NuGet.config",
+		"/C/ANAELLE/ALTD/github_repositories/myWebApp/wwwroot/Web.config",
+		"/C/ANAELLE/ALTD/github_repositories/myWebApp/Program.cs",
+		"/C/ANAELLE/ALTD/github_repositories/myWebApp/Startup.cs",
+		"/C/ANAELLE/ALTD/github_repositories/myWebApp/appsettings.Development.json",
+		"/C/ANAELLE/ALTD/github_repositories/myWebApp/appsettings.json",
+		"/C/ANAELLE/ALTD/github_repositories/spi/public/web.config",
+		"/C/ANAELLE/ALTD/github_repositories/myWebApp/myWebApp.csproj",
+		"/C/ANAELLE/ALTD/github_repositories/spi/composer.lock",
+		"/C/ANAELLE/ALTD/github_repositories/spi/composer.json",
+		"/C/ANAELLE/ALTD/github_repositories/spi/mysql/anaellel_safepetsinc2_spi.sql",
+		"/C/ANAELLE/ALTD/github_repositories/spi/public/static/db.php",
+		"/C/ANAELLE/ALTD/github_repositories/spi/.env",
+		"/C/ANAELLE/ALTD/github_repositories/spi/public/static/database.php",
+		"/C/myWebApp/appsettings.json",
+		"/C/myWebApp/Properties/launchSettings.json",
+		"/C/myWebApp/Pages/Shared/_Layout.cshtml",
+		"/C/myWebApp/Pages/Index.cshtml",
+		"/C/myWebApp/Pages/Index.cshtml.cs",
+		"/C/myWebApp/Models/volunteers.cs",
+		"/C/myWebApp/wwwroot/data/volunteers.json",
+		"/C/myWebApp/Startup.cs",
+		"/C/myWebApp/Controllers/DogsController.cs",
+		"/C/myWebApp/wwwroot/js/site.js",
+		"/C/myWebApp/Controllers/VolunteersController.cs",
+		"/C/myWebApp/Pages/Volunteers.cshtml",
+		"/C/myWebApp/myWebApp.csproj",
+		"/C/myWebApp/wwwroot/js/site2.js",
+		"/C/myWebApp/Pages/Volunteers.html",
+		"/C/myWebApp/Controllers/oldVolunteersControllercode.txt",
+		"/C/myWebApp/Models/dogs.cs",
+		"/C/myWebApp/Pages/Duties.cshtml",
+		"/C/myWebApp/Services/JsonFileVolunteerService.cs",
+		"/C/myWebApp/Components/DutyList.razor",
+		"/C/myWebApp/Pages/Duties.cshtml.cs",
+		"/C/laragon/www/spi/.env",
+		"/C/myWebApp/wwwroot/data/products.json",
+		"/C/myWebApp/wwwroot/data/duties2.json",
+		"/C/myWebApp/Pages/DateTime.cshtml",
+		"/C/myWebApp/wwwroot/Web.config",
+		"/C/myWebApp/wwwroot/Application.aspx",
+		"/C/myWebApp/wwwroot/javascript/systemculture.js",
+		"/C/myWebApp/wwwroot/data/dogs.json",
+		"/C/myWebApp/Services/JsonFileDogService.cs",
+		"/C/myWebApp/Pages/Dogs.cshtml",
+		"/C/myWebApp/appsettings.Development.json",
+		"/C/myWebApp/Pages/Pets.cshtml",
+		"/C/myWebApp/Components/DogList.razor",
+		"/C/myWebApp/Pages/Pets.cshtml.cs",
+		"/C/myWebApp/Pages/Dogs.cshtml.cs",
+		"/C/myWebApp/wwwroot/css/site.css",
+		"/C/myWebApp/Pages/Dogs.cs",
+		"/C/myWebApp/Pages/DutiesSPI.cshtml",
+		"/C/myWebApp/Models/duties.cs",
+		"/C/myWebApp/wwwroot/data/duties.json",
+		"/C/myWebApp/Services/JsonFileDutyService.cs",
+		"/C/myWebApp/Pages/Privacy.cshtml",
+		"/C/myWebApp/NuGet.config",
+		"/C/myWebApp/Program.cs",
+		"/C/Dotnet API/duties.cs",
+		"/C/Dotnet API/JsonFileDogService.cs",
+		"/C/myWebApp/Pages/AboutSPI.cshtml",
+		"/C/myWebApp/Pages/ContactSPI.cshtml",
+		"/C/myWebApp/Pages/DutiesSPI.cshtml.cs",
+		"/C/myWebApp/wwwroot/css/style.css",
+		"/C/laragon/www/safepetsinc/mysql/anaellel_safepetsinc2.sql",
+		"/C/laragon/www/docs/silverstripedoc/index.php",
+		"/C/laragon/www/anaellel_safepetsinc2/mysql/anaellel_safepetsinc2.sql",
+		"/C/Users/atale/Documents/GitHub/safepetsinc/spi/anaellel_safepetsinc2_spi.sql",
+		"/C/Users/atale/Documents/GitHub/safepetsinc/spi/.env",
+		"/C/Users/atale/Documents/GitHub/safepetsinc/spi/.env.example",
+		"/C/laragon/www/spi/prepros-6.config",
+		"/C/laragon/www/spi/.env.example",
+		"/C/laragon/www/spi/composer.json",
+		"/C/laragon/www/spi/composer.lock",
+		"/C/laragon/www/spi/phpcs.xml.dist",
+		"/C/laragon/www/spi/vendor/silverstripe/cms/_config.php",
+		"/C/Users/atale/Documents/GitHub/safepetsinc/spi/vendor/silverstripe/admin/_config.php",
+		"/C/laragon/www/spi/example.env",
+		"/C/laragon/www/spi/.editorconfig",
+		"/C/myWebApp/Pages/_ViewImports.cshtml",
+		"/C/myWebApp/Pages/_ViewStart.cshtml",
+		"/C/myWebApp/Components/DutyList.cs",
+		"/C/laragon/www/spi/themes/anaelleltd/templates/Page.ss",
+		"/C/laragon/www/spi/app/src/Page.php",
+		"/C/laragon/www/spi/app/src/FaviconsExt.php",
+		"/C/laragon/www/spi/themes/anaelleltd/templates/Favicons.ss",
+		"/C/laragon/www/spi/app/_config/extension.yml",
+		"/C/laragon/www/spi/app/_config/theme.yml",
+		"/C/laragon/www/spi/app/src/PageController.php",
+		"/C/laragon/www/spi/app/_config.php",
+		"/C/laragon/www/spi/themes/anaelleltd/templates/Layout/Page.ss",
+		"/C/laragon/www/spi/app/_config/mysite.yml",
+		"/C/laragon/www/spi/themes/anaelleltd/templates/FaviconsExt.php",
+		"/C/laragon/www/spi/public/static/index.php",
+		"/C/myWebApp/Pages/AboutSPI.cshtml.cs",
+		"/C/myWebApp/Pages/ContactSPI.cshtml.cs",
+		"/C/myWebApp/Pages/Index - Copy.cshtml",
+		"/C/myWebApp/Pages/Index.cshtml - Copy.cs",
+		"/C/laragon/www/spi/themes/anaelleltd/templates/ArticlePage/Layout/ArticlePage.ss",
+		"/C/myWebApp/Pages/Database.cshtml",
+		"/C/myWebApp/Pages/Blog.cshtml",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/spi/.env",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/spi/app/_config/mysite.yml",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/spi/app/_config/theme.yml",
+		"/C/laragon/www/spi/app/src/HomePage.php",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/portfolio/history.html",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/portfolio/training.html",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/portfolio/kathaking.html",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/spi/test.php",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/spi/public/web.config",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/portfolio/spi/.env",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/portfolio/spi/vendor/autoload.php",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/portfolio/spi/themes/anaelleltd/.editorconfig",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/portfolio/spi/themes/anaelleltd/composer.json",
+		"/C/ANAELLE/ALTD/public_html - Hostfav/portfolio/spi/public/.htaccess"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"items",
+			"item",
+			"VOLUNTEER",
+			"IMG",
+			"DOG",
+			"COMPLETION_STATUS",
+			"DATE_DUE",
+			"DATE_SET",
+			"DUTY_TASK",
+			"DUTY_ID",
+			" width=\"400\"",
+			"width=\"400\"",
+			"h5",
+			"%; ",
+			"background-color",
+			"text-decoration",
+			"//",
+			"underline dotted",
+			"text-decoration: none;",
+			"outline",
+			"contact.html",
+			"bread",
+			"; ",
+			"breadcr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Volunteer",
+			"img",
+			"Dog",
+			"Complete",
+			"Due",
+			"Set",
+			"Task",
+			"Id",
+			"",
+			"h6",
+			"contact.php"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "spi_ASP.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\laragon\\www\\safepetsinc\\projectsilverstripe.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 280.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

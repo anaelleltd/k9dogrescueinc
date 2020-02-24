@@ -1,0 +1,37 @@
+[
+{"Id":"1",
+"Nickname":"Mic",
+"Firstname":"Michael",
+"Lastname":"PLUNKETT",
+"DOB":"1960-12-15",
+"City":"Perth",
+"Checks":"Y",
+"Start":"2018-05-26",
+"End":"2020-12-15",
+"Allowance": 100.00
+},
+
+{"Id":"2",
+"Nickname":"Sally",
+"Firstname":"Salome",
+"Lastname":"DJAWAD",
+"DOB":"1999-09-11",
+"Checks":"Y",
+"Start":"2018-08-20",
+"End":"2021-01-26",
+"Allowance": 200.30
+},
+
+{"Id":"3",
+"Nickname":"Hik",
+"Firstname":"Hikomori",
+"Lastname":"SUSUME",
+"DOB":"1997-06-13",
+"City":"Rockingham",
+"Checks":"Y",
+"Start":"2018-10-24",
+"End":"2020-12-30",
+"Allowance": 185.10
+}
+]
+
