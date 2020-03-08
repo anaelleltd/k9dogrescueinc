@@ -1,0 +1,15 @@
+@page
+@using myWebApp.Components
+@model DogsModel
+@{
+    ViewData["Title"] = "Pets";
+}
+<h2>@ViewData["Title"]</h2>
+<main id="main">
+<div class="row">
+@(await Html.RenderComponentAsync<PetList>(RenderMode.ServerPrerendered))
+</div>
+</main>
+
+
+<script src="_framework/blazor.server.js"></script>

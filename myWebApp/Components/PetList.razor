@@ -1,0 +1,117 @@
+@using myWebApp.Models
+@using myWebApp.Services
+@using Microsoft.AspNetCore.Components.Web
+@inject JsonFileDogService DogService
+
+<div class="card-columns">
+@foreach (var dog in DogService.GetDogs())
+{
+    <div class="card">
+        <div class="card-img" style="background-image: url('@dog.Picture');">
+        </div>
+        <div class="card-body">
+            <small class="text-muted"><a @onclick="(e => SelectDog(dog.Id))" 
+              data-toggle="modal" data-target="#dogModal" class="btn btn-primary">@dog.Name</a>
+            </small>
+        </div> 
+    </div>
+    <br/>
+    <br/>
+}
+</div>
+
+@if(selectedDog != null)
+{
+  <div class="modal fade" id="dogModal" tabindex="-1" role="dialog" aria-labelledby="dogName" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="dogName">@selectedDog.Name</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <div class="card-body">
+                <p class="card-img" style="background-image: url('@selectedDog.Picture');"></p>
+                <p class="card-text"><h4>Date of Birth:</h4> @selectedDog.DOB</p>
+                <p class="card-text"><h4>Sex:</h4> @selectedDog.Sex</p>
+                <p class="card-text"><h4>Breed:</h4> @selectedDog.Breed</p>
+                <p class="card-text"><h4>Size:</h4> @selectedDog.Size</p>
+                <p class="card-text"><h4>Description:</h4> @selectedDog.Description</p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+        <p class="card-text"><h4>Popularity:</h4>
+          @if(voteCount == 0)
+          {
+            <span>Please, vote for me!</span>
+          }
+          else
+          {
+            <span>@voteCount @voteLabel</span>
+          }
+          @for(int i=1; i<11; i++)
+          {
+            var currentStar = i;
+            if(i<=currentVote)
+            {
+              <span class="fa fa-star checked" @onclick="(e => SubmitVote(currentStar))"></span>
+            }
+            else
+            {
+              <span class="fa fa-star" @onclick="(e => SubmitVote(currentStar))"></span>
+            }
+          }
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+}
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+@code 
+{
+    Dog selectedDog;
+    string selectedDogId;
+
+    void SelectDog(string dogId)
+    {
+      selectedDogId = dogId;
+      selectedDog = DogService.GetDogs().First(x => x.Id == dogId);
+      GetCurrentVote();
+    }
+
+    int currentVote = 0;
+    int voteCount = 0;
+    string voteLabel;
+
+    void GetCurrentVote()
+    {
+      if(selectedDog.Votes == null)
+      {
+        currentVote = 0;
+        voteCount = 0;
+      }
+      else
+      {
+        voteCount = selectedDog.Votes.Count();
+        voteLabel = voteCount > 1 ? "Votes" : "Vote";
+        currentVote = selectedDog.Votes.Sum() / voteCount;
+      }
+
+      System.Console.WriteLine($"Current Votes for {selectedDog.Id}: {currentVote}");
+    }
+
+    void SubmitVote(int vote)
+    {
+      System.Console.WriteLine($"Vote received for {selectedDog.Id}: {vote}");
+      DogService.AddVote(selectedDogId, vote);
+      SelectDog(selectedDogId);
+    }
+}
